@@ -33,7 +33,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/phastmike/tags.git",
-                    "commit": "93e8a5b42a16eea8e3034b823a8b977b57865c64"
+                    "commit": "2d258494064759267953bc6daea91be1f3ac8121"
                 }
             ]
         }
