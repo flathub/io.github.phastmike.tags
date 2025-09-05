@@ -10,7 +10,9 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
-        "--filesystem=host"
+        "--filesystem=host",
+        "--env=GSK_RENDERER=vulkan",
+        "--env=LIBGL_ALWAYS_SOFTWARE=1"
     ],
     "cleanup" : [
         "/include",
@@ -33,7 +35,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/phastmike/tags.git",
-                    "commit": "f1784019da74d4525962b778856531d6c80ffa69"
+                    "commit": "93372554fa113734603431c0d4068e16e671e4fe"
                 }
             ]
         }
