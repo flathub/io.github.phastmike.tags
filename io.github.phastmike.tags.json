@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.phastmike.tags",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
+    "runtime-version" : "51",
     "sdk" : "org.gnome.Sdk",
     "command" : "tags",
     "finish-args" : [
@@ -23,7 +23,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/phastmike/tags.git",
-                    "commit" : "bd152b343b69da60403491092eca127481ad69fd"
+                    "commit" : "ca59bb89758d9584bfecb23e024a41d9f7d3586d"
                 }
             ]
         }
